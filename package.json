@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "postinstall": "psc-package update",
+    "demo": "pulp run"
+  },
+  "devDependencies": {
+    "psc-package": "^0.2.5",
+    "pulp": "^12.0.1",
+    "purescript": "^0.11.7"
+  },
+  "dependencies": {
+    "prettier": "^1.9.1"
+  }
+}
